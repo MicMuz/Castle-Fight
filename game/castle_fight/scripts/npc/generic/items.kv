@@ -22,37 +22,6 @@
     }
   }
 
-  "item_build_treasure_box"
-  {
-    "ID"                            "2001"
-    "AbilityTextureName"            "treasure_box"
-
-    "UnitName"                      "treasure_box"
-    "GoldCost"                      "350"
-    "LumberCost"                    "400"
-
-    "ItemSellable"                  "0"
-    "ItemDroppable"                 "0"
-    "ItemPurchasable"               "0"
-
-    "BaseClass"                     "item_datadriven"
-    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-    "MaxLevel"                      "1"
-    "Building"                      "1"
-    "AbilityCastRange"              "260"
-    "Scale"                         "1"
-    "PlayerCanControl"              "1"
-
-    "OnSpellStart"
-    {
-      "RunScript"
-      {
-        "ScriptFile"        "builder.lua"
-        "Function"          "Build"
-      }
-    }
-  }
-
   "item_rescue_strike"
   {
     "ID"                            "2002"

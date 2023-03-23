@@ -57,7 +57,7 @@ function Precache( context )
   PrecacheResource("particle_folder", "particles/buildinghelper", context)
 
   -- General Precaches
-  PrecacheUnitByNameSync("treasure_box", context)
+  --PrecacheUnitByNameSync("treasure_box", context)
   PrecacheUnitByNameSync("castle", context)
   PrecacheUnitByNameSync("dotacraft_corpse", context)
   PrecacheResource("particle", "particles/dire_fx/fire_barracks.vpcf", context)

@@ -1,7 +1,4 @@
 g_Race_Items = {
-  generic = {
-    "item_build_treasure_box"
-  },
   npc_dota_hero_kunkka = {
     "item_build_gjallarhorn",
     "item_build_artillery",
